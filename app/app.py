@@ -35,6 +35,6 @@ def handle_500(error):
     return jsonify({"code": 500, "error": "Internal server error"}), 500
 
 # Ejecutar la aplicación localmente
-if __name__ == '__main__':
-    app.run()
+# if __name__ == '__main__':
+    # app.run(app.run(host="0.0.0.0", port=PORT))
     #app.run(port=PORT)
